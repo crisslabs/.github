@@ -1,9 +1,10 @@
 <div align="center">
 
-# 🧪 CrissLabs · HeyCriss Labs
+<a href="https://heycriss.dev">
+  <img src="./assets/hero-banner.svg" alt="CrissLabs · HeyCriss Labs Banner" width="100%" />
+</a>
 
-**Laboratorio independiente de ingeniería de software, arquitecturas web y experimentación en la nube.**  
-*Donde los prototipos técnicos evolucionan a software real, funcional y mantenible.*
+<br />
 
 [![Website](https://img.shields.io/badge/Producción-heycriss.dev-0F172A?style=flat-square&logo=googlechrome&logoColor=38BDF8)](https://heycriss.dev)
 [![Staging Lab](https://img.shields.io/badge/Staging_%26_Lab-crisslabs.tech-0F172A?style=flat-square&logo=cloudflare&logoColor=F38020)](https://crisslabs.tech)
@@ -17,7 +18,7 @@
 
 ## ⚡ ¿Qué es CrissLabs y cómo nació?
 
-Todo proyecto de ingeniería necesita un espacio donde las ideas puedan probarse sin fricción antes de salir al mundo real. **CrissLabs (HeyCriss Labs)** nació originalmente como *"el taller detrás de la vitrina"*: un entorno personal de investigación, pruebas de concepto (PoC) y despliegue continuo creado por **Cristhian Rivas** ([@CrissEilish](https://github.com/CrissEilish)).
+Todo proyecto de ingeniería necesita un espacio donde las ideas puedan probarse sin fricción antes de salir al mundo real. **CrissLabs (HeyCriss Labs)** nació originalmente como *"el taller detrás de la vitrina"*: un entorno personal de investigación, pruebas de concepto (PoC) y despliegue continuo creado por **Criss** ([@CrissEilish](https://github.com/CrissEilish)).
 
 Lo que comenzó como un banco de pruebas aislado para validar arquitecturas, automatizaciones y configuraciones de servidores, evolucionó hasta convertirse en una organización técnica formal. Hoy, **CrissLabs** aloja plataformas en producción, módulos especializados, herramientas open-source y microservicios diseñados bajo tres principios centrales:
 
@@ -68,19 +69,11 @@ En **CrissLabs** combinamos tecnologías consolidadas de desarrollo backend/fron
 
 ## 🌐 Infraestructura y Ambientes
 
-Para mantener un flujo de trabajo ordenado entre la experimentación pura y los productos finales, nuestra infraestructura opera bajo dos dominios claramente diferenciados:
+Para mantener un flujo de trabajo ordenado entre la experimentación pura y los productos finales, nuestra infraestructura opera bajo dos dominios claramente diferenciados conectados por nuestro pipeline de despliegue:
 
-```text
-┌───────────────────────────────────────────────────────────────────────────┐
-│                         ARQUITECTURA DE AMBIENTES                         │
-├─────────────────────────────────────┬─────────────────────────────────────┤
-│  🚀 PRODUCCIÓN · heycriss.dev       │  🧪 LABORATORIO · crisslabs.tech    │
-├─────────────────────────────────────┼─────────────────────────────────────┤
-│  • Marca personal y portafolio      │  • Entorno de Staging / Pre-release │
-│  • Documentación y casos de estudio │  • Demos interactivas y sandboxes   │
-│  • Servicios estables y releases    │  • Microservicios y pruebas de red  │
-└─────────────────────────────────────┴─────────────────────────────────────┘
-```
+<div align="center">
+  <img src="./assets/architecture-flow.svg" alt="Arquitectura de Ambientes: crisslabs.tech a heycriss.dev" width="100%" />
+</div>
 
 - **[`heycriss.dev`](https://heycriss.dev) (Producción & Marca Principal):** El punto de encuentro oficial. Aloja el portafolio principal, artículos técnicos, proyectos consolidados y lanzamientos listos para usuarios finales.
 - **[`crisslabs.tech`](https://crisslabs.tech) (Staging & Banco de Pruebas):** El motor experimental. Aquí viven los despliegues preliminares, entornos de *staging*, pruebas de integración en la nube y prototipos activos antes de su graduación.
@@ -91,16 +84,13 @@ Para mantener un flujo de trabajo ordenado entre la experimentación pura y los 
 
 ¿Te interesa colaborar en un proyecto open-source, conversar sobre arquitectura web o explorar lo que estamos construyendo?
 
-- 👤 **Fundador & Lead Developer:** [Cristhian Rivas (@CrissEilish)](https://github.com/CrissEilish)
+- 👤 **Fundador & Lead Developer:** [Criss (@CrissEilish)](https://github.com/CrissEilish)
 - 🌍 **Sitio Web Oficial:** [heycriss.dev](https://heycriss.dev)
 - 🧪 **Entorno de Pruebas (Lab):** [crisslabs.tech](https://crisslabs.tech)
-- 📍 **Ubicación:** Maracaibo, Venezuela 🇻🇪
+- 📍 **Ubicación:** Cookie
 
----
+<br />
 
 <div align="center">
-
-**Hecho con código limpio, café y curiosidad técnica desde Maracaibo, Venezuela.**  
-*© HeyCriss Labs (`CrissLabs`) — Building in public.*
-
+  <img src="./assets/footer-wave.svg" alt="CrissLabs Footer" width="100%" />
 </div>
