@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://heycriss.dev">
-  <img src="./assets/hero-banner.svg" alt="CrissLabs · HeyCriss Labs Banner" width="100%" />
+  <img src="storage.heycriss.dev/badges/labs/hero-banner.svg" alt="CrissLabs · HeyCriss Labs Banner" width="100%" />
 </a>
 
 <br />
@@ -72,7 +72,7 @@ En **CrissLabs** combinamos tecnologías consolidadas de desarrollo backend/fron
 Para mantener un flujo de trabajo ordenado entre la experimentación pura y los productos finales, nuestra infraestructura opera bajo dos dominios claramente diferenciados conectados por nuestro pipeline de despliegue:
 
 <div align="center">
-  <img src="./assets/architecture-flow.svg" alt="Arquitectura de Ambientes: crisslabs.tech a heycriss.dev" width="100%" />
+  <img src="https://storage.heycriss.dev/badges/labs/architecture-flow.svg" alt="Arquitectura de Ambientes: crisslabs.tech a heycriss.dev" width="100%" />
 </div>
 
 - **[`heycriss.dev`](https://heycriss.dev) (Producción & Marca Principal):** El punto de encuentro oficial. Aloja el portafolio principal, artículos técnicos, proyectos consolidados y lanzamientos listos para usuarios finales.
