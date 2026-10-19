@@ -1,18 +1,8 @@
 <div align="center">
 
 <a href="https://heycriss.dev">
-  <img src="./assets/hero-banner.svg" alt="CrissLabs · HeyCriss Labs Banner" width="100%" />
+  <img src="https://storage.heycriss.dev/badges/labs/hero-banner.svg" alt="CrissLabs · HeyCriss Labs Banner" width="100%" />
 </a>
-
-<br />
-
-[![Website](https://img.shields.io/badge/Producción-heycriss.dev-0F172A?style=flat-square&logo=googlechrome&logoColor=38BDF8)](https://heycriss.dev)
-[![Staging Lab](https://img.shields.io/badge/Staging_%26_Lab-crisslabs.tech-0F172A?style=flat-square&logo=cloudflare&logoColor=F38020)](https://crisslabs.tech)
-[![Status](https://img.shields.io/badge/Filosofía-Building_in_Public-0F172A?style=flat-square&logo=github&logoColor=10B981)](https://github.com/CrissLabs)
-[![Location](https://img.shields.io/badge/Base-Maracaibo,_VE-0F172A?style=flat-square&logo=maplibre&logoColor=F43F5E)](https://github.com/CrissEilish)
-[![Lead](https://img.shields.io/badge/Lead-@CrissEilish-0F172A?style=flat-square&logo=githubsponsors&logoColor=A855F7)](https://github.com/CrissEilish)
-
-</div>
 
 ---
 
@@ -72,7 +62,7 @@ En **CrissLabs** combinamos tecnologías consolidadas de desarrollo backend/fron
 Para mantener un flujo de trabajo ordenado entre la experimentación pura y los productos finales, nuestra infraestructura opera bajo dos dominios claramente diferenciados conectados por nuestro pipeline de despliegue:
 
 <div align="center">
-  <img src="./assets/architecture-flow.svg" alt="Arquitectura de Ambientes: crisslabs.tech a heycriss.dev" width="100%" />
+  <img src="https://storage.heycriss.dev/badges/labs/architecture-flow.svg" alt="Arquitectura de Ambientes: crisslabs.tech a heycriss.dev" width="100%" />
 </div>
 
 - **[`heycriss.dev`](https://heycriss.dev) (Producción & Marca Principal):** El punto de encuentro oficial. Aloja el portafolio principal, artículos técnicos, proyectos consolidados y lanzamientos listos para usuarios finales.
@@ -90,7 +80,3 @@ Para mantener un flujo de trabajo ordenado entre la experimentación pura y los 
 - 📍 **Ubicación:** Cookie
 
 <br />
-
-<div align="center">
-  <img src="./assets/footer-wave.svg" alt="CrissLabs Footer" width="100%" />
-</div>
