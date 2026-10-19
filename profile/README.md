@@ -18,7 +18,7 @@
 
 ## ⚡ ¿Qué es CrissLabs y cómo nació?
 
-Todo proyecto de ingeniería necesita un espacio donde las ideas puedan probarse sin fricción antes de salir al mundo real. **CrissLabs (HeyCriss Labs)** nació originalmente como *"el taller detrás de la vitrina"*: un entorno personal de investigación, pruebas de concepto (PoC) y despliegue continuo creado por **Cristhian Rivas** ([@CrissEilish](https://github.com/CrissEilish)).
+Todo proyecto de ingeniería necesita un espacio donde las ideas puedan probarse sin fricción antes de salir al mundo real. **CrissLabs (HeyCriss Labs)** nació originalmente como *"el taller detrás de la vitrina"*: un entorno personal de investigación, pruebas de concepto (PoC) y despliegue continuo creado por **Criss** ([@CrissEilish](https://github.com/CrissEilish)).
 
 Lo que comenzó como un banco de pruebas aislado para validar arquitecturas, automatizaciones y configuraciones de servidores, evolucionó hasta convertirse en una organización técnica formal. Hoy, **CrissLabs** aloja plataformas en producción, módulos especializados, herramientas open-source y microservicios diseñados bajo tres principios centrales:
 
@@ -84,10 +84,10 @@ Para mantener un flujo de trabajo ordenado entre la experimentación pura y los 
 
 ¿Te interesa colaborar en un proyecto open-source, conversar sobre arquitectura web o explorar lo que estamos construyendo?
 
-- 👤 **Fundador & Lead Developer:** [Cristhian Rivas (@CrissEilish)](https://github.com/CrissEilish)
+- 👤 **Fundador & Lead Developer:** [Criss (@CrissEilish)](https://github.com/CrissEilish)
 - 🌍 **Sitio Web Oficial:** [heycriss.dev](https://heycriss.dev)
 - 🧪 **Entorno de Pruebas (Lab):** [crisslabs.tech](https://crisslabs.tech)
-- 📍 **Ubicación:** Maracaibo, Venezuela 🇻🇪
+- 📍 **Ubicación:** Cookie
 
 <br />
 
