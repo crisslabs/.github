@@ -6,7 +6,7 @@
 
 ---
 
-## ⚡ ¿Qué es CrissLabs y cómo nació?
+## ⚡ ¿Qué es HeyCriss Labs y cómo nació?
 
 Todo proyecto de ingeniería necesita un espacio donde las ideas puedan probarse sin fricción antes de salir al mundo real. **CrissLabs (HeyCriss Labs)** nació originalmente como *"el taller detrás de la vitrina"*: un entorno personal de investigación, pruebas de concepto (PoC) y despliegue continuo creado por **Criss** ([@CrissEilish](https://github.com/CrissEilish)).
 
@@ -33,7 +33,7 @@ Una selección de las plataformas, módulos y herramientas desarrolladas y mante
 
 ## 🧰 Stack Tecnológico y Herramientas
 
-En **CrissLabs** combinamos tecnologías consolidadas de desarrollo backend/frontend con herramientas modernas de infraestructura y contenedores:
+En **HeyCriss Labs** combinamos tecnologías consolidadas de desarrollo backend/frontend con herramientas modernas de infraestructura y contenedores:
 
 ### Backend & Core
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
