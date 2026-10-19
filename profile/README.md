@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://heycriss.dev">
-  <img src="storage.heycriss.dev/badges/labs/hero-banner.svg" alt="CrissLabs · HeyCriss Labs Banner" width="100%" />
+  <img src="https://storage.heycriss.dev/badges/labs/hero-banner.svg" alt="CrissLabs · HeyCriss Labs Banner" width="100%" />
 </a>
 
 <br />
