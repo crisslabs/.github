@@ -1,12 +1,14 @@
 <div align="center">
 
 <a href="https://heycriss.dev">
-  <img src="https://storage.heycriss.dev/badges/labs/hero-banner.svg" alt="CrissLabs · HeyCriss Labs Banner" width="100%" />
+  <img src="https://storage.heycriss.dev" alt="CrissLabs · HeyCriss Labs Banner" width="100%" />
 </a>
+
+</div>
 
 ---
 
-## ⚡ ¿Qué es HeyCriss Labs y cómo nació?
+## ⚡ ¿Qué es CrissLabs y cómo nació?
 
 Todo proyecto de ingeniería necesita un espacio donde las ideas puedan probarse sin fricción antes de salir al mundo real. **CrissLabs (HeyCriss Labs)** nació originalmente como *"el taller detrás de la vitrina"*: un entorno personal de investigación, pruebas de concepto (PoC) y despliegue continuo creado por **Criss** ([@CrissEilish](https://github.com/CrissEilish)).
 
@@ -33,7 +35,7 @@ Una selección de las plataformas, módulos y herramientas desarrolladas y mante
 
 ## 🧰 Stack Tecnológico y Herramientas
 
-En **HeyCriss Labs** combinamos tecnologías consolidadas de desarrollo backend/frontend con herramientas modernas de infraestructura y contenedores:
+En **CrissLabs** combinamos tecnologías consolidadas de desarrollo backend/frontend con herramientas modernas de infraestructura y contenedores:
 
 ### Backend & Core
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
@@ -80,3 +82,7 @@ Para mantener un flujo de trabajo ordenado entre la experimentación pura y los 
 - 📍 **Ubicación:** Cookie
 
 <br />
+
+<div align="center">
+  <img src="./assets/footer-wave.svg" alt="CrissLabs Footer" width="100%" />
+</div>
