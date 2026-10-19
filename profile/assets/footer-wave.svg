@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="100%" height="100%">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <linearGradient id="lineAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.1" />
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#10B981" stop-opacity="1" />
+      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    }
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .wave-shift {
+      animation: waveMove 7s ease-in-out infinite alternate;
+    }
+    .pulse-led {
+      animation: ledBlink 2.4s ease-in-out infinite;
+    }
+    @keyframes waveMove {
+      0% { transform: translateX(-18px); }
+      100% { transform: translateX(18px); }
+    }
+    @keyframes ledBlink {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 1; }
+    }
+  </style>
+
+  <rect width="900" height="110" rx="14" fill="#090D16" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Subtle Animated Wave Path -->
+  <g class="wave-shift">
+    <path d="M -40 75 Q 180 45 450 75 T 940 75 L 940 110 L -40 110 Z" fill="url(#waveGrad1)" opacity="0.65" />
+    <path d="M -40 75 Q 180 45 450 75 T 940 75" fill="none" stroke="url(#lineAccent)" stroke-width="2" />
+  </g>
+
+  <!-- Center Telemetry Text -->
+  <circle cx="235" cy="40" r="4" fill="#10B981" class="pulse-led" />
+  <text x="455" y="44" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" class="font-sans">
+    Hecho con código limpio, café y curiosidad técnica desde Maracaibo, Venezuela
+  </text>
+
+  <text x="450" y="92" text-anchor="middle" fill="#64748B" font-size="11" letter-spacing="1.2" class="font-mono">
+    © HEYCRISS LABS (CRISSLABS) · BUILDING IN PUBLIC · @CRISSEILISH
+  </text>
+</svg>

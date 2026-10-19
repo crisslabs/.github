@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0B1120" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="cyanEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <linearGradient id="purpleCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+    </filter>
+
+    <!-- Subtle Tech Grid -->
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="0.8" stroke-opacity="0.65" />
+      <circle cx="36" cy="36" r="1" fill="#334155" opacity="0.5" />
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .pulse-slow {
+      animation: pulseOp 5s ease-in-out infinite;
+    }
+    .pulse-fast {
+      animation: pulseOp 2s ease-in-out infinite;
+    }
+    .cursor-blink {
+      animation: blink 1.1s step-end infinite;
+    }
+    .float-icon {
+      animation: floatY 4.5s ease-in-out infinite;
+    }
+    .dash-flow {
+      stroke-dasharray: 8 6;
+      animation: dashMove 12s linear infinite;
+    }
+    .bubble-1 { animation: rise 3.2s ease-in infinite; }
+    .bubble-2 { animation: rise 4.1s ease-in infinite 1.2s; }
+    .bubble-3 { animation: rise 2.8s ease-in infinite 2.1s; }
+
+    @keyframes pulseOp {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 0.85; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes floatY {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -140; }
+    }
+    @keyframes rise {
+      0% { transform: translateY(0px) scale(0.8); opacity: 0; }
+      30% { opacity: 0.9; }
+      100% { transform: translateY(-28px) scale(1.2); opacity: 0; }
+    }
+  </style>
+
+  <!-- Main Card Container -->
+  <rect width="900" height="280" rx="18" fill="url(#bgGrad)" />
+  <rect width="900" height="280" rx="18" fill="url(#grid)" />
+
+  <!-- Ambient Glowing Orbs -->
+  <circle cx="140" cy="140" r="95" fill="#38BDF8" opacity="0.12" filter="url(#softGlow)" class="pulse-slow" />
+  <circle cx="760" cy="70" r="110" fill="#A855F7" opacity="0.10" filter="url(#softGlow)" />
+  <circle cx="680" cy="220" r="90" fill="#10B981" opacity="0.09" filter="url(#softGlow)" class="pulse-slow" />
+
+  <!-- Decorative Circuit Lines -->
+  <path d="M 0 235 L 220 235 L 250 255 L 900 255" fill="none" stroke="url(#purpleCyan)" stroke-width="1.5" opacity="0.4" />
+  <path d="M 620 0 L 650 30 L 900 30" fill="none" stroke="#38BDF8" stroke-width="1" class="dash-flow" opacity="0.35" />
+
+  <!-- Outer Border -->
+  <rect x="1" y="1" width="898" height="278" rx="17" fill="none" stroke="#1E293B" stroke-width="2" />
+
+  <!-- LEFT: Animated Lab Emblem -->
+  <g transform="translate(65, 58)" class="float-icon">
+    <!-- Hexagonal / Rounded Tech Frame -->
+    <rect x="0" y="0" width="136" height="136" rx="28" fill="#0F172A" stroke="url(#cyanEmerald)" stroke-width="2" />
+    <rect x="8" y="8" width="120" height="120" rx="22" fill="#1E293B" fill-opacity="0.35" />
+
+    <!-- Glowing Lab Flask + Code Nodes -->
+    <path d="M 54 34 L 82 34 M 60 34 L 60 56 L 38 92 C 34 98 38 104 46 104 L 90 104 C 98 104 102 98 98 92 L 76 56 L 76 34" 
+          fill="none" stroke="url(#cyanEmerald)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" />
+
+    <!-- Liquid Wave Inside Flask -->
+    <path d="M 43 86 Q 56 80 68 86 T 93 86 L 96 93 C 98 97 95 101 89 101 L 47 101 C 41 101 38 97 40 93 Z" 
+          fill="url(#cyanEmerald)" opacity="0.75" />
+
+    <!-- Animated Rising Data Bubbles -->
+    <circle cx="62" cy="82" r="3" fill="#38BDF8" class="bubble-1" />
+    <circle cx="74" cy="85" r="2.5" fill="#10B981" class="bubble-2" />
+    <circle cx="67" cy="78" r="2" fill="#A855F7" class="bubble-3" />
+
+    <!-- Corner Tech Accents -->
+    <circle cx="22" cy="22" r="3" fill="#38BDF8" class="pulse-fast" />
+    <circle cx="114" cy="114" r="3" fill="#10B981" class="pulse-fast" />
+  </g>
+
+  <!-- RIGHT: Typography & Terminal Status -->
+  <g transform="translate(235, 0)">
+    <!-- Top Pill Badge -->
+    <rect x="0" y="46" width="295" height="26" rx="13" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <circle cx="15" cy="59" r="4.5" fill="#10B981" class="pulse-fast" />
+    <text x="28" y="63" fill="#94A3B8" font-size="11" font-weight="600" letter-spacing="1.2" class="font-mono">
+      HEYCRISS LABS · MARACAIBO, VE
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="124" fill="url(#titleGrad)" font-size="50" font-weight="800" letter-spacing="-1" class="font-sans">
+      CrissLabs
+    </text>
+
+    <!-- Tagline -->
+    <text x="2" y="156" fill="#CBD5E1" font-size="16.5" font-weight="400" class="font-sans">
+      Laboratorio independiente de software experimental, arquitectura web y cloud.
+    </text>
+
+    <!-- Terminal Command Bar -->
+    <g transform="translate(0, 178)">
+      <rect x="0" y="0" width="595" height="38" rx="8" fill="#060911" stroke="#1E293B" stroke-width="1.2" />
+      <!-- Window Control Dots -->
+      <circle cx="16" cy="19" r="4" fill="#EF4444" opacity="0.8" />
+      <circle cx="30" cy="19" r="4" fill="#F59E0B" opacity="0.8" />
+      <circle cx="44" cy="19" r="4" fill="#10B981" opacity="0.8" />
+
+      <text x="64" y="23" font-size="12.5" class="font-mono">
+        <tspan fill="#10B981" font-weight="700">➜</tspan>
+        <tspan fill="#38BDF8"> ~/crisslabs</tspan>
+        <tspan fill="#64748B"> git:(</tspan><tspan fill="#A855F7">main</tspan><tspan fill="#64748B">)</tspan>
+        <tspan fill="#E2E8F0"> deploy --env=staging --mode=build-in-public</tspan>
+      </text>
+      <!-- Blinking Block Cursor -->
+      <rect x="520" y="11" width="8" height="15" fill="#38BDF8" class="cursor-blink" />
+    </g>
+  </g>
+</svg>
